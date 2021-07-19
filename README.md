@@ -1,3 +1,3 @@
-# goit-markup-hw-02
+# goit-markup-hw-03
 
-Домашняя работа №2 Anton Ptashynskyi
+Домашняя работа №3 Anton Ptashynskyi
