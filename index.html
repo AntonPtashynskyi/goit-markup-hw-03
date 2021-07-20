@@ -20,21 +20,22 @@
   <body>
     <!-- Header -->
     <header class="page-header">
-      <nav class="main-nav container">
-        <a href="index.html" class="logo"
-          ><span class="logo-accent">Web</span>Studio</a
-        >
-
+      <div class="main-nav container">
+        <a href="index.html" class="logo">
+          <span class="logo-accent">Web</span>Studio
+        </a>
         <!-- Navigation bar -->
-        <ul class="site-nav list">
-          <li class="item">
-            <a class="link current" href="./index.html">Студия</a>
-          </li>
-          <li class="item">
-            <a class="link" href="portfolio.html">Портфолио</a>
-          </li>
-          <li class="item"><a class="link" href="#">Контакты</a></li>
-        </ul>
+        <nav>
+          <ul class="site-nav list">
+            <li class="item">
+              <a class="link current" href="./index.html">Студия</a>
+            </li>
+            <li class="item">
+              <a class="link" href="portfolio.html">Портфолио</a>
+            </li>
+            <li class="item"><a class="link" href="#">Контакты</a></li>
+          </ul>
+        </nav>
 
         <!-- Contacts -->
         <ul class="contact list">
@@ -49,13 +50,13 @@
             >
           </li>
         </ul>
-      </nav>
+      </div>
     </header>
 
     <!-- Main Content -->
     <main>
       <!-- Main board -->
-      <section class="main-board section">
+      <section class="main-board main-section">
         <h1 class="main-board-text">Эффективные решения для вашего бизнеса</h1>
         <button class="primery-button" type="button">Заказать услугу</button>
       </section>
@@ -98,112 +99,128 @@
       </section>
 
       <!-- About-us section -->
-      <section class="about-us container section">
-        <h2 class="about-us-tittle">Чем мы занимаемся</h2>
-        <ul class="about-us-list list">
-          <li class="item">
-            <a href="#"
-              ><img
-                src="images/man-tipping-on-ipad.jpg"
-                alt="человек печатает на клавиатуре ай-пада"
-                width="370"
-                height="294"
-                class="about-us-img"
-            /></a>
-          </li>
-          <li class="item">
-            <a href="#"
-              ><img
-                src="images/lapto-and-phone.jpg"
-                alt="человек держит телефон на фоне ноутбука"
-                width="370"
-                height="294"
-                class="about-us-img"
-            /></a>
-          </li>
-          <li class="item">
-            <a href="#"
-              ><img
-                src="images/hand-holding-ipad.jpg"
-                alt="человек держит айпад на котором выбирает при помощи стилуса цвет с палитры цветов"
-                width="370"
-                height="294"
-                class="about-us-img"
-            /></a>
-          </li>
-        </ul>
+      <section class="about-us section">
+        <div class="container">
+          <h2 class="about-us-tittle">Чем мы занимаемся</h2>
+          <ul class="about-us-list list">
+            <li class="item">
+              <a href="#"
+                ><img
+                  src="images/man-tipping-on-ipad.jpg"
+                  alt="человек печатает на клавиатуре ай-пада"
+                  width="370"
+                  height="294"
+                  class="about-us-img"
+              /></a>
+            </li>
+            <li class="item">
+              <a href="#"
+                ><img
+                  src="images/lapto-and-phone.jpg"
+                  alt="человек держит телефон на фоне ноутбука"
+                  width="370"
+                  height="294"
+                  class="about-us-img"
+              /></a>
+            </li>
+            <li class="item">
+              <a href="#"
+                ><img
+                  src="images/hand-holding-ipad.jpg"
+                  alt="человек держит айпад на котором выбирает при помощи стилуса цвет с палитры цветов"
+                  width="370"
+                  height="294"
+                  class="about-us-img"
+              /></a>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!-- Our team section -->
-      <section class="team container section">
-        <h2 class="team-tittle">Наша Команда</h2>
-        <ul class="team-list list">
-          <li class="item">
-            <img
-              src="images/product-desinger-igor-demianko.jpg"
-              alt="Игорь Демьяненко - Product Designer"
-              width="270"
-              height="260"
-              class="team-img"
-            />
-            <h3>Игорь Демьяненко</h3>
-            <p>Product Designer</p>
-          </li>
-          <li class="item">
-            <img
-              src="images/fronedn-developer-olga-repina.jpg"
-              alt="Ольга Репина - Frontend Developer"
-              width="270"
-              height="260"
-              class="team-img"
-            />
-            <h3>Ольга Репина</h3>
-            <p>Frontend Developer</p>
-          </li>
-          <li class="item">
-            <img
-              src="images/marketing-nikolai-tarasov.jpg"
-              alt="Николай Тарасов - Marketing"
-              width="270"
-              height="260"
-              class="team-img"
-            />
-            <h3>Николай Тарасовbr</h3>
-            <p>Marketingp</p>
-          </li>
-          <li class="item">
-            <img
-              src="images/ui-designer-mikhail-ermakov.jpg"
-              alt="Михаил Ермаков - UI Designer"
-              width="270"
-              height="260"
-              class="team-img"
-            />
-            <h3>Михаил Ермаков</h3>
-            <p>UI Designer</p>
-          </li>
-        </ul>
+      <section class="team section">
+        <div class="container">
+          <h2 class="team-tittle">Наша Команда</h2>
+          <ul class="team-list list">
+            <li class="item">
+              <img
+                src="images/product-desinger-igor-demianko.jpg"
+                alt="Игорь Демьяненко - Product Designer"
+                width="270"
+                height="260"
+                class="team-img"
+              />
+              <div class="item-descr">
+                <h3>Игорь Демьяненко</h3>
+                <p>Product Designer</p>
+              </div>
+            </li>
+            <li class="item">
+              <img
+                src="images/fronedn-developer-olga-repina.jpg"
+                alt="Ольга Репина - Frontend Developer"
+                width="270"
+                height="260"
+                class="team-img"
+              />
+              <div class="item-descr">
+                <h3>Ольга Репина</h3>
+                <p>Frontend Developer</p>
+              </div>
+            </li>
+            <li class="item">
+              <img
+                src="images/marketing-nikolai-tarasov.jpg"
+                alt="Николай Тарасов - Marketing"
+                width="270"
+                height="260"
+                class="team-img"
+              />
+              <div class="item-descr">
+                <h3>Николай Тарасовbr</h3>
+                <p>Marketingp</p>
+              </div>
+            </li>
+            <li class="item">
+              <img
+                src="images/ui-designer-mikhail-ermakov.jpg"
+                alt="Михаил Ермаков - UI Designer"
+                width="270"
+                height="260"
+                class="team-img"
+              />
+              <div class="item-descr">
+                <h3>Михаил Ермаков</h3>
+                <p>UI Designer</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
     <!-- Footer -->
-    <footer class="footer container section">
-      <a href="index.html" class="logo"
-        ><span class="logo-accent">Web</span>Studio</a
-      >
-      <address>
-        <p class="footer-adress">г. Киев, пр-т Леси Украинки, 26</p>
-      </address>
-      <ul class="footer-contact contact list">
-        <li>
-          <a class="contact-item" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a class="contact-item" href="tel:+380961111111">+38 096 111 11 11</a>
-        </li>
-      </ul>
+    <footer class="footer section">
+      <div class="container">
+        <a href="index.html" class="logo"
+          ><span class="logo-accent">Web</span>Studio</a
+        >
+        <address class="footer-adress">
+          <p>г. Киев, пр-т Леси Украинки, 26</p>
+        </address>
+        <ul class="footer-contact contact list">
+          <li>
+            <a class="contact-item" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="contact-item" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>
