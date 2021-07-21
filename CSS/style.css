@@ -63,6 +63,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  margin-right: 93px;
 }
 
 .logo-accent {
@@ -78,8 +79,6 @@ body {
 
 .site-nav {
   display: flex;
-
-  margin-left: 93px;
 }
 
 .site-nav .item:not(:last-child) {
@@ -214,7 +213,6 @@ body {
 
 .features-list {
   display: flex;
-  width: calc((100% - 90px) / 4);
 }
 
 .features-list .item:not(:last-child) {
@@ -222,7 +220,8 @@ body {
 }
 
 .features-list .item {
-  min-width: 270px;
+  /* width: 270px; */
+  width: calc((100% - 90px) / 4);
 }
 
 .features p {
@@ -243,6 +242,9 @@ body {
 /* About us section */
 .about-us-list {
   display: flex;
+}
+
+.about-us-list .item {
   width: calc((100% - 60px) / 3);
 }
 
@@ -279,7 +281,6 @@ body {
 
 .team-list {
   display: flex;
-  width: calc((100% - 90px) / 4);
 }
 
 .team-list .item:not(:last-child) {
@@ -293,6 +294,8 @@ body {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+
+  width: calc((100% - 90px) / 4);
 }
 
 .team .team-tittle {
